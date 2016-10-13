@@ -10,13 +10,20 @@
     <script src="static/javascripts/bootstrap.min.js"></script>
     <script src="static/javascripts/srt__.js"></script>
     <script src="static/javascripts/main.js"></script>
+    <!-- 안드로이드 홈화면추가시 상단 주소창 제거 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" href="/img/favicon.ico">
+    <!-- ios홈화면추가시 상단 주소창 제거 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="/img/favicon.ico">
+
     <style>
         body {
             background-color: #f0f0f0;
             margin-top: 50px;
         }
         /* Remove the navbar's default margin-bottom and rounded borders */
-        
+
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
@@ -24,27 +31,27 @@
             color: #000;
             border: none;
         }
-        
+
         #login {
             color: #FFF;
         }
-        
+
         #login:hover {
             color: #000;
         }
-        
+
         .myHide {
             display: none;
         }
-        
+
         #ov {
             color: #FFF;
         }
-        
+
         #ov:hover {
             color: #9d9d9d;
         }
-        
+
         #exam {
             margin-top: 10px;
             width: 1150px;
@@ -53,7 +60,7 @@
             border-radius: 20px;
             box-shadow: 0 0 5px 0 #BDBDBD;
         }
-        
+
         @media (max-width: 767px) {
             .gl {
                 font-size: 17px;
